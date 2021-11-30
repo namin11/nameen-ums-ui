@@ -7,7 +7,7 @@ const Logo = (props) => {
     //   src="/static/ums_logo.png"
     //   {...props}
     // />
-    <span {...props} style={{ color: '#fff', fontSize: '30px', fontFamily: '"Roboto", "Helvetica", "Arial", sans-serif' }}>Varsity Governance System</span>
+    <span {...props} style={{ color: '#fff', fontSize: '30px', fontFamily: '"Roboto", "Helvetica", "Arial", sans-serif' }}>College Management System</span>
   );
 };
 

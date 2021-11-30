@@ -25,7 +25,7 @@ const useStyles = makeStyles((theme) => ({
     marginRight: theme.spacing(2)
   }
 }));
-const apiUrl = 'https://safe-atoll-64757.herokuapp.com';
+const apiUrl = 'http://localhost:3000';
 const ViewReq = ({ className, ...rest }) => {
   const classes = useStyles();
   const [limit, setLimit] = useState(10);

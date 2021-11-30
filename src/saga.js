@@ -1,7 +1,7 @@
 import { put, takeEvery } from 'redux-saga/effects';
 import * as C from './action/actionType';
 
-const apiUrl = 'https://safe-atoll-64757.herokuapp.com';
+const apiUrl = 'http://localhost:3000';
 function* userSignUp(action) {
   const data = yield fetch(`${apiUrl}/v1/users/login`, {
     method: 'POST',

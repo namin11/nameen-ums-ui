@@ -34,7 +34,7 @@ const useStyles = makeStyles((theme) => ({
     fontSize: '15px'
   }
 }));
-const apiUrl = 'https://safe-atoll-64757.herokuapp.com';
+const apiUrl = 'http://localhost:3000';
 const TotalCustomers = ({ className, ...rest }) => {
   const classes = useStyles();
   const [allStudent, setAllStudent] = React.useState(0);

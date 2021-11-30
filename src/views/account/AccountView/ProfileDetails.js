@@ -31,7 +31,7 @@ import { updateProfileData } from '../../../action';
 //     label: 'Punjab'
 //   }
 // ];
-const apiUrl = 'https://safe-atoll-64757.herokuapp.com';
+const apiUrl = 'http://localhost:3000';
 const gender = [
   {
     value: 'male',
@@ -550,11 +550,11 @@ const ProfileDetails = ({ className, ...rest }) => {
                     onChange={handleChange}
                     select
                     // SelectProps={{ native: true }}
-                    value={values.country_id}
+                    value={values?.country_id}
                     variant="outlined"
                     InputLabelProps={{ shrink: true }}
                   >
-                    {country.length !== 0 && country && country.map((option) => (
+                    {country?.length !== 0 && country && country.map((option) => (
                       <option
                         key={option.name}
                         value={option._id}
@@ -576,11 +576,11 @@ const ProfileDetails = ({ className, ...rest }) => {
                     onChange={handleChange}
                     select
                     // SelectProps={{ native: true }}
-                    value={values.state_id}
+                    value={values?.state_id}
                     variant="outlined"
                     InputLabelProps={{ shrink: true }}
                   >
-                    {state.length !== 0 && state && state.map((option) => (
+                    {state?.length !== 0 && state && state.map((option) => (
                       <option
                         key={option.name}
                         value={option._id}
@@ -602,11 +602,11 @@ const ProfileDetails = ({ className, ...rest }) => {
                     onChange={handleChange}
                     select
                     // SelectProps={{ native: true }}
-                    value={values.city_id}
+                    value={values?.city_id}
                     variant="outlined"
                     InputLabelProps={{ shrink: true }}
                   >
-                    {city.length !== 0 && city && city.map((option) => (
+                    {city?.length !== 0 && city && city.map((option) => (
                       <option
                         key={option.name}
                         value={option._id}

@@ -50,7 +50,7 @@ const useStyles = makeStyles((theme) => ({
     maxWidth: '40%'
   },
 }));
-const apiUrl = 'https://safe-atoll-64757.herokuapp.com';
+const apiUrl = 'http://localhost:3000';
 const FacultyView = ({ ...rest }) => {
   const navigate = useNavigate();
   const [open, setOpen] = React.useState(false);

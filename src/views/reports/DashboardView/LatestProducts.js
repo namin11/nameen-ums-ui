@@ -27,7 +27,7 @@ const useStyles = makeStyles(({
     width: 48
   }
 }));
-const apiUrl = 'https://safe-atoll-64757.herokuapp.com';
+const apiUrl = 'http://localhost:3000';
 const LatestProducts = ({ className, ...rest }) => {
   const classes = useStyles();
   const [allQuery, setAllQuery] = React.useState([]);

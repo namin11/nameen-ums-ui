@@ -39,7 +39,7 @@ const useStyles = makeStyles((theme) => ({
     borderRadius: '20px'
   }
 }));
-const apiUrl = 'https://safe-atoll-64757.herokuapp.com';
+const apiUrl = 'http://localhost:3000';
 const Announcement = ({ ...rest }) => {
   const [open, setOpen] = React.useState(false);
   const [openTwo, setOpentwo] = React.useState(false);

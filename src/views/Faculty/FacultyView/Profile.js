@@ -57,7 +57,7 @@ const useStyles = makeStyles(() => ({
     width: 100
   },
 }));
-const apiUrl = 'https://safe-atoll-64757.herokuapp.com';
+const apiUrl = 'http://localhost:3000';
 const Profile = ({ className, ...rest }) => {
   const { state } = useLocation();
   const classes = useStyles();

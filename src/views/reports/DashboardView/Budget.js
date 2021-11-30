@@ -17,7 +17,7 @@ import {
 import PeopleIcon from '@material-ui/icons/PeopleOutlined';
 import ArrowRightIcon from '@material-ui/icons/ArrowRight';
 
-const apiUrl = 'https://safe-atoll-64757.herokuapp.com';
+const apiUrl = 'http://localhost:3000';
 const useStyles = makeStyles((theme) => ({
   root: {
     height: '100%'

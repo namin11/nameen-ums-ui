@@ -99,7 +99,7 @@ function Login(props) {
           }
           <div className={classes.avatar}>
             {/* <img src={UmsLogo} alt="bb" /> */}
-            Varsity Governance System
+            College Management System
           </div>
           <Typography component="h1" variant="h5">
             Sign in

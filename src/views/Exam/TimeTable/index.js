@@ -21,7 +21,7 @@ import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import { addTimetable } from '../../../action';
 import SeatingPlan from '../../SeatingPlan';
 
-const apiUrl = 'https://safe-atoll-64757.herokuapp.com';
+const apiUrl = 'http://localhost:3000';
 const useStyles = makeStyles(() => ({
   root: {
     flexGrow: 1,

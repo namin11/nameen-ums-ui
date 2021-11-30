@@ -29,7 +29,7 @@ const user = {
   jobTitle: 'Senior Developer',
   name: 'Katarina Smith'
 };
-const apiUrl = 'https://safe-atoll-64757.herokuapp.com';
+const apiUrl = 'http://localhost:3000';
 const items = [
   {
     href: '/app/dashboard',

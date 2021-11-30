@@ -39,7 +39,7 @@ const useStyles = makeStyles(() => ({
     padding: 40
   }
 }));
-const apiUrl = 'https://safe-atoll-64757.herokuapp.com';
+const apiUrl = 'http://localhost:3000';
 function createData(name, calories, fat, carbs, protein, price) {
   return {
     name,

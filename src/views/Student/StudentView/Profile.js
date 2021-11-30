@@ -80,7 +80,7 @@ const useRowStyles = makeStyles({
     width: '100%',
   },
 });
-const apiUrl = 'https://safe-atoll-64757.herokuapp.com';
+const apiUrl = 'http://localhost:3000';
 function Row(props) {
   const {
     // eslint-disable-next-line react/prop-types
